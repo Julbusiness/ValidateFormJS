@@ -8,6 +8,44 @@
 </head>
 <body>
 
+    <div class="box-login">
+
+        <h2>Inscrivez-vous</h2>
+
+        <form>
+            <div class="form-group">
+                <label for="user">Username</label>
+                <input type="text" id="user" placeholder="Username" maxlength="25">
+                <img src="ressources/check.svg" alt="validate icon" class="icon-verif">
+                <span class="message-alert">Choose a username between 3 and 25 characters</span>
+            </div>
+            <div class="form-group">
+                <label for="email">Enter your email</label>
+                <input type="email" id="email" placeholder="Email">
+                <img src="ressources/check.svg" alt="validate icon" class="icon-verif">
+                <span class="message-alert">Enter a valid email</span>
+            </div>
+            <div class="form-group">
+                <label for="mdp">Enter your password</label>
+                <input type="password" id="mdp" placeholder="Enter a password">
+                <img src="ressources/check.svg" alt="validate icon" class="icon-verif">
+                <span class="message-alert">A symbol, a lowercase letter, a number</span>
+                <div class="line">
+                    <div class="l1"><span>Weak</span></div>
+                    <div class="l2"><span>Medium</span></div>
+                    <div class="l3"><span>Strong</span></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mdpconf">Enter your password</label>
+                <input type="password" id="mdpconf" placeholder="Confirm your password">
+                <img src="ressources/check.svg" alt="validate icon" class="icon-verif">
+            </div>
+
+            <button type="submit">Account creation</button>
+        </form>
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
