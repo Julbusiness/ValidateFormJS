@@ -69,21 +69,22 @@ button {
 	display: block;
 	margin: 30px auto;
 	outline: 0;
-	background: rgb(250, 165, 9);
+	background: #765d69;
 	width: 93%;
 	border: 0;
 	padding: 15px;
 	border-radius: 3px;
 	font-size: 20px;
 	cursor: pointer;
+  color: #f1f1f1;
 }
 
 button:hover {
-	background: rgb(252, 181, 49);
+	background: #765d69cd;
 }
 
 button:active {
-	background: rgb(250, 165, 9);
+	background: #765d69;
 }
 
 .line {
@@ -105,15 +106,15 @@ button:active {
 }
 
 .l1 {
-	background: rgb(182, 182, 13);
+  background: #f1828d;
 }
 
 .l2 {
-	background: rgb(151, 85, 85);
+	background: #ebdf6f;
 }
 
 .l3 {
-	background: green;
+	background: #8fb9a8;
 }
 
 .line span {
