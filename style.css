@@ -123,3 +123,14 @@ button:active {
 	transform: translateX(-50%);
 	top: 10px;
 }
+
+@media screen and (max-width: 585px) {
+  .box-login {
+    width: 100%;
+
+  }
+  input {
+    width: 90%;
+    margin: 5px auto 10px;
+  }
+}
