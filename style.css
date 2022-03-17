@@ -23,7 +23,7 @@ body {
 
 h2 {
 	text-align: center;
-  padding: 15px;
+	padding: 15px;
 }
 
 .form-group {
@@ -76,7 +76,7 @@ button {
 	border-radius: 3px;
 	font-size: 20px;
 	cursor: pointer;
-  color: #f1f1f1;
+	color: #f1f1f1;
 }
 
 button:hover {
@@ -106,7 +106,7 @@ button:active {
 }
 
 .l1 {
-  background: #f1828d;
+	background: #f1828d;
 }
 
 .l2 {
@@ -125,12 +125,11 @@ button:active {
 }
 
 @media screen and (max-width: 585px) {
-  .box-login {
-    width: 100%;
-
-  }
-  input {
-    width: 90%;
-    margin: 5px auto 10px;
-  }
+	.box-login {
+		width: 100%;
+	}
+	input {
+		width: 90%;
+		margin: 5px auto 10px;
+	}
 }
